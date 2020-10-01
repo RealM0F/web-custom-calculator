@@ -1,22 +1,33 @@
+:root {
+    --strife: #23272A;
+    --dejay: #9777C2;
+    --matt: #192841;
+}
+
 html {
     background-color: #23272A;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content:center;
-    align-items:center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
 }
 
 button, input {
     background-color: white;
 }
 
-img {
-    position: top;
+#button {
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#numbers {
-    color: white;
-    text-align: center;
+#submit {
+    margin: 2vh;
 }

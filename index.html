@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Speedboat XP Calcultor</title>
+        <title>XP Calculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
@@ -11,13 +11,23 @@
     </head>
     <body>
         <div id="numbers">
-            <p id="formula">Formula: (5x^2)+500x</p>
+            <p id="formula">Formula: 5x<sup>2</sup>+50x+100</p>
             <p id="value">Level: 0<p>
         </div>
-        <input id="xp" type="number" placeholder="0"></input>
-        <button id="submit" onclick="levelFromXp()">Submit</button>
+        <input id="xp" type="number" placeholder="XP"></input>
+        <input id="multiplier" type="number" placeholder="Multiplier"></input>
         
-        <script src="assets/index.js" async defer></script>
+        <div id="button">
+            <label for="theme">Theme: </label>
+            <select id="theme" name="theme">
+              <option value="strife">Strife</option>
+              <option value="dejay">DeJay</option>
+              <option value="matt">matt.</option>
+            </select>
+            <button id="submit" onclick="levelFromXP()">Submit</button>
+        </div>
+        
+        <script src="assets/index.js"></script>
         <!-- I hate this -->
     </body>
 </html>
