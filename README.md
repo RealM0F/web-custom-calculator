@@ -1,6 +1,10 @@
-# Final Project: Custom Calculator
+# Web 1.0 Final Project: Custom Calculator
 
 ## Description
+
+This calculator implements a function I've written for another project - calculating your Level given your total earned XP.
+
+## Assignment Description
 
 This is an open-ended assignment for you to practice the skills you've learned so far in order to make a custom calculator application.
 This assignment will reinforce core concepts used in programming with JavaScript. You'll get a chance to practice using Flex Box, CSS styling, querySelector, and event listeners in JavaScript.
@@ -11,11 +15,11 @@ Your goal is to make a calculator application to calculate a result using a cust
 
 Your site must have the following features:
 
-[x] Include base HTML code (doctype, html, head, body tags)
-[x] Use Flex Box for positioning the calculator elements
-[] CSS styles - Use at least 6 styles to make your calculator look presentable. for example: 
-  [] font-size, font-family, margin, padding, border, color, background-color etc.
-[] Uses form with at least 3 inputs
-  [] One of those inputs must be a [select dropdown](https://www.w3schools.com/tags/tag_select.asp)
-[] Uses all of the inputs to calculate the result
-[] Result is calculated whenever an input field is modified
+- [x] Include base HTML code (doctype, html, head, body tags)
+- [x] Use Flex Box for positioning the calculator elements
+- [] CSS styles - Use at least 6 styles to make your calculator look presentable. for example: 
+  - [] font-size, font-family, margin, padding, border, color, background-color etc.
+- [] Uses form with at least 3 inputs
+  - [] One of those inputs must be a [select dropdown](https://www.w3schools.com/tags/tag_select.asp)
+- [] Uses all of the inputs to calculate the result
+- [] Result is calculated whenever an input field is modified
