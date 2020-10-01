@@ -1,4 +1,4 @@
-# Web 1.0 Final Project: Custom Calculator
+# Web 1.0 gitFinal Project: Custom Calculator
 
 ## Description
 
