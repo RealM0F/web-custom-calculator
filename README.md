@@ -2,7 +2,7 @@
 
 ## Description
 
-This calculator implements a function I've written for another project - calculating your Level given your total earned XP.
+This calculator implements a function I've written for another project - calculating your Level given your total earned XP and an optional multiplier
 
 ## Assignment Description
 This is an open-ended assignment for you to practice the skills you've learned so far in order to make a custom calculator application.
