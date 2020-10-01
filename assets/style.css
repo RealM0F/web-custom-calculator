@@ -1,0 +1,22 @@
+html {
+    background-color: #23272A;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input {
+    background-color: white;
+}
+
+img {
+    position: top;
+}
+
+#numbers {
+    color: white;
+    text-align: center;
+}
